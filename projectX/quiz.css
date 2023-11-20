@@ -1,0 +1,41 @@
+.bg {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: white;
+    background: #693CA3;
+    background: linear-gradient(135deg, #693CA3, #B326EA);
+}
+
+
+#quiz-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.question {
+    margin-bottom: 10px;
+}
+
+.options label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#result {
+    display: none;
+    font-size: 3rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 87vh;
+}
+
+.submitbtn {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: 0;
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="icon" href="source/favicon.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="default.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/c98d165499.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-black navbar-dark">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-center flex-column"
+          id="collapsibleNavbar"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item mx-3 p-1">
+              <a
+                style="font-size: 1.5rem"
+                class="nav-link text-white"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item mx-3 p-1">
+              <a
+                style="font-size: 1.5rem"
+                class="nav-link text-white"
+                href="timeline.html"
+                >Timeline</a
+              >
+            </li>
+            <li class="nav-item mx-3 p-1">
+              <a
+                style="font-size: 1.5rem"
+                class="nav-link text-white"
+                href="geography.html"
+                >Geography</a
+              >
+            </li>
+            <li class="nav-item mx-3 p-1">
+              <a
+                style="font-size: 1.5rem"
+                class="nav-link text-white"
+                href="technology.html"
+                >Technology</a
+              >
+            </li>
+            <li class="nav-item mx-3 p-1">
+              <a
+                style="font-size: 1.5rem"
+                class="nav-link text-white-50"
+                href="#"
+                >About</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div
+          class="col-md-6 d-flex justify-content-center flex-column text-end pe-4"
+        >
+          <h1>About Me</h1>
+          <h3>
+            Born 3rd November of 2004 <br />Currently studying in Astana IT
+            University <br />Specialty is Computer Science <br />Occupation is
+            Data Scientist
+          </h3>
+        </div>
+        <div class="statement col-md-6 d-flex align-items-center py-5">
+          <div
+            class="card statement rounded-5 border-1 border-white"
+            style="width: 300px"
+          >
+            <img
+              class="card-img-top rounded-5"
+              src="source/author.jpg"
+              alt="Kazikhanov"
+            />
+            <div class="card-body">
+              <h4 class="card-title">Zhan Kazikhanov</h4>
+              <p class="card-text">Author of this Website.</p>
+              <a href="contacts.html" class="btn btn-outline-light"
+                ><b>Contacts</b></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="statement d-flex flex-column col-md-6 p-5">
+          <h1>What Is The Purpose Of This Website?</h1>
+          <p>
+            My chosen topic is "The Current World In My Eyes". <br />
+            This Website is created in order to give a visualized answer to the
+            statement above. There are 5 primary pages that consist of
+            incredible design and useful functionality that was created by using
+            HTML5, CSS3 and Bootstrap5 technologies.
+            <br />
+            Welcome to my Website. Do not be shy to explore!
+          </p>
+        </div>
+
+        <div class="pattern1 col-md-6"></div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="pattern2 col-md-6"></div>
+        <div class="statement d-flex flex-column col-md-6 p-5">
+          <h1>Interested In This Website?</h1>
+          <h3>Take A Quiz That Tests Your Knowledge About It!</h3>
+          <a href="quiz.html" class="btn btn-outline-light">Take Quiz</a>
+        </div>
+      </div>
+    </div>
+
+    <footer
+      class="container-fluid bg-black py-3 text-center text-white d-flex justify-content-center align-items-center"
+    >
+      <h2>
+        <i class="fa fa-quote-left fa-pull-center fa-border bg-dark"></i>
+        Official Website - Courtesy Of J.Kazikhanov
+        <button class="btn btn-light m-2" onclick="getLink()">Get Link</button>
+      </h2>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

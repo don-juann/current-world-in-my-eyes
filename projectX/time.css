@@ -1,0 +1,130 @@
+.parallax {
+  background-image: url("source/historybg.jpg");
+  height: 240vh;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.timeline-root {
+  position: absolute;
+  left: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-left: 6px solid white;
+  height: 195%;
+}
+
+.timeline-dot {
+  position: relative;
+  right: 55%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.timeline-section-one{
+  position: absolute;
+  left: 15%;
+  top: 150px;
+  padding: 1rem;
+  width: 400px;
+  border-radius: 1rem;
+  color: black;
+  background-color: white;
+}
+
+.timeline-section-two{
+  position: absolute;
+  right: 15%;
+  top: 500px;
+  padding: 1rem;
+  width: 400px;
+  border-radius: 1rem;
+  color: black;
+  background-color: white;
+}
+
+.timeline-section-three{
+  position: absolute;
+  left: 15%;
+  top: 800px;
+  padding: 1rem;
+  width: 400px;
+  border-radius: 1rem;
+  color: black;
+  background-color: white;
+}
+
+.timeline-section-four{
+  position: absolute;
+  right: 15%;
+  top: 1100px;
+  padding: 1rem;
+  width: 400px;
+  border-radius: 1rem;
+  color: black;
+  background-color: white;
+}
+
+.timeline-section-five{
+  position: absolute;
+  left: 15%;
+  top: 1450px;
+  padding: 1rem;
+  width: 400px;
+  border-radius: 1rem;
+  color: black;
+  background-color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .timeline-dot {
+    display: none;
+  }
+
+  .parallax {
+    height: 245vh;
+  }
+
+  .timeline-root{
+    height: 190%;
+  }
+  .timeline-section-one {
+    position: absolute;
+    width: 90%;
+    top: 10%;
+    left: 5%;
+  }
+
+  .timeline-section-two {
+    position: absolute;
+    width: 90%;
+    top: 62%;
+    left: 5%;
+  }
+
+  .timeline-section-three {
+    position: absolute;
+    width: 90%;
+    top: 107%;
+    left: 5%;
+  }
+
+  .timeline-section-four {
+    position: absolute;
+    width: 90%;
+    top: 148%;
+    left: 5%;
+  }
+
+  .timeline-section-five {
+    position: absolute;
+    width: 90%;
+    top: 196%;
+    left: 5%;
+  }
+}

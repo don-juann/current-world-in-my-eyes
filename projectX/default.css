@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*::-webkit-scrollbar {
+    width: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.scrollTop {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    padding: 10px 15px;
+    background-color: #000;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.3s, display 0.3s;
+    border: 2px solid white;
+} 
+
+.statement {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background: #693CA3;
+    background: linear-gradient(135deg, #693CA3, #B326EA);
+}
+
+.pattern1 {
+    background-color: #e5e5f7;
+    opacity: 1;
+    background-image:  linear-gradient(135deg,#693CA3 25%, transparent 25%), linear-gradient(225deg,#B326EA 25%, transparent 25%), linear-gradient(45deg, #693CA3 25%, transparent 25%), linear-gradient(315deg,#B326EA 25%, #e5e5f7 25%);
+    background-position:  10px 0, 10px 0, 0 0, 0 0;
+    background-size: 20px 20px;
+    background-repeat: repeat;
+}
+
+.pattern2 {
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background: repeating-linear-gradient( -45deg, #693CA3, #B326EA 5px, #e5e5f7 5px, #e5e5f7 25px );
+}
+
+.continentbtn {
+    font-size: 2rem;
+    width: 200px;
+    height: 5%;
+}
+
+.geobg {
+    background-image: url(source/geobg.jpg); 
+    height: 118vh;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

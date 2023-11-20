@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacts</title>
+    <link rel="icon" href="source/favicon.ico" />
+    <link rel="stylesheet" href="contacts.css" />
+  </head>
+  <body>
+    <div><h1 class="fancy">Contacts &nbsp Of &nbsp Author</h1></div>
+
+    <div style="height: 100vh">
+      <div>
+        <img
+          id="img1"
+          class="infoimg1"
+          src="source/phone.png"
+          alt="phone logo"
+        />
+        <h2 class="infoh1" id="hh1">+7776665544</h2>
+      </div>
+      <div>
+        <img
+          id="img2"
+          class="infoimg2"
+          src="source/email.png"
+          alt="email logo"
+        />
+        <h2 class="infoh2" id="hh2">jks@gmail.com</h2>
+      </div>
+      <div>
+        <img
+          id="img3"
+          class="infoimg3"
+          src="source/github.png"
+          alt="github logo"
+        />
+        <h2 class="infoh3" id="hh3">don-juann</h2>
+      </div>
+    </div>
+
+    <div style="display: flex; justify-content: center; margin-bottom: 2rem">
+      <button
+        type="button"
+        style="
+          height: 2rem;
+          width: 6rem;
+          border-radius: 10%;
+          border: 0;
+          background-color: transparent;
+        "
+      >
+        <h2>
+          <a style="text-decoration: none; color: white" href="index.html"
+            >Go Home</a
+          >
+        </h2>
+      </button>
+    </div>
+
+    <script>
+      const img1 = document.getElementById("img1");
+      const img2 = document.getElementById("img2");
+      const img3 = document.getElementById("img3");
+      const hh1 = document.getElementById("hh1");
+      const hh2 = document.getElementById("hh2");
+      const hh3 = document.getElementById("hh3");
+
+      img1.addEventListener("mouseover", show1);
+      img2.addEventListener("mouseover", show2);
+      img3.addEventListener("mouseover", show3);
+
+      img1.addEventListener("mouseout", hide1);
+      img2.addEventListener("mouseout", hide2);
+      img3.addEventListener("mouseout", hide3);
+
+      function show1() {
+        hh1.style.display = "block";
+      }
+
+      function show2() {
+        hh2.style.display = "block";
+      }
+      function show3() {
+        hh3.style.display = "block";
+      }
+
+      function hide1() {
+        hh1.style.display = "none";
+      }
+      function hide2() {
+        hh2.style.display = "none";
+      }
+      function hide3() {
+        hh3.style.display = "none";
+      }
+    </script>
+
+    <script src="js/contacts.js"></script>
+  </body>
+</html>
